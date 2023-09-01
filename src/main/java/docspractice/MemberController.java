@@ -8,17 +8,17 @@ import org.springframework.web.bind.annotation.RestController;
 public class MemberController {
 
     @PostMapping("/signup1")
-    public String signup1(@RequestBody final MemberSignup memberSignup) {
-        return "hello";
+    public MemberSignup signup1(@RequestBody final MemberSignup memberSignup) {
+        return memberSignup;
     }
 
     @PostMapping("/signup2")
-    public String signup2(@RequestBody final MemberSignup memberSignup) {
-        return "hello";
+    public MemberSignup signup2(@RequestBody final MemberSignup memberSignup) {
+        return memberSignup;
     }
 
     @PostMapping("/signup3")
-    public String signup3(@RequestBody final MemberSignup memberSignup) {
-        return "hello";
+    public MemberSignup signup3(@RequestBody final MemberSignup memberSignup) {
+        return memberSignup;
     }
 }
