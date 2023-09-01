@@ -47,9 +47,15 @@ public class MemberControllerTest extends ControllerTest {
                                         fieldWithPath("email").description("이메일"),
                                         fieldWithPath("password").description("비밀 번호"),
                                         fieldWithPath("address").description("주소"),
-                                        fieldWithPath("phoneNumber").description("전화 번호"))
-                                .requestSchema(Schema.schema("요청"))
-                                .responseSchema(Schema.schema("응답"))
+                                        fieldWithPath("phoneNumber").description("전화 번호")
+                                )
+                                .responseFields(
+                                        fieldWithPath("nickname").description("닉네임"),
+                                        fieldWithPath("email").description("이메일"),
+                                        fieldWithPath("password").description("비밀 번호"),
+                                        fieldWithPath("address").description("주소"),
+                                        fieldWithPath("phoneNumber").description("전화 번호")
+                                )
                                 .build(
                                 ))));
     }
@@ -81,9 +87,15 @@ public class MemberControllerTest extends ControllerTest {
                                         fieldWithPath("email").description("이메일"),
                                         fieldWithPath("password").description("비밀 번호"),
                                         fieldWithPath("address").description("주소"),
-                                        fieldWithPath("phoneNumber").description("전화 번호"))
-                                .requestSchema(Schema.schema("요청"))
-                                .responseSchema(Schema.schema("응답"))
+                                        fieldWithPath("phoneNumber").description("전화 번호")
+                                )
+                                .responseFields(
+                                        fieldWithPath("nickname").description("닉네임"),
+                                        fieldWithPath("email").description("이메일"),
+                                        fieldWithPath("password").description("비밀 번호"),
+                                        fieldWithPath("address").description("주소"),
+                                        fieldWithPath("phoneNumber").description("전화 번호")
+                                )
                                 .build(
                                 ))));
     }
@@ -115,9 +127,15 @@ public class MemberControllerTest extends ControllerTest {
                                         fieldWithPath("email").description("이메일"),
                                         fieldWithPath("password").description("비밀 번호"),
                                         fieldWithPath("address").description("주소"),
-                                        fieldWithPath("phoneNumber").description("전화 번호"))
-                                .requestSchema(Schema.schema("요청"))
-                                .responseSchema(Schema.schema("응답"))
+                                        fieldWithPath("phoneNumber").description("전화 번호")
+                                )
+                                .responseFields(
+                                        fieldWithPath("nickname").description("닉네임"),
+                                        fieldWithPath("email").description("이메일"),
+                                        fieldWithPath("password").description("비밀 번호"),
+                                        fieldWithPath("address").description("주소"),
+                                        fieldWithPath("phoneNumber").description("전화 번호")
+                                )
                                 .build(
                                 ))));
     }
